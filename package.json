@@ -1,0 +1,19 @@
+{
+  "name": "fusion3-techradar",
+  "version": "0.1.0",
+  "description": "Fusion3 Technology Radar",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xedosoftware/fusion3-techradar"
+  }
+}
