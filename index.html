@@ -1,33 +1,27 @@
 <html>
 <head>
   <meta http-equiv="Content-type" content="text/html; charset=utf-8">  
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="lib/styles.css">
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-<script type="text/javascript" src="lib/protovis-3.2/protovis-d3.2.js"></script>
-<script type="text/javascript" charset="utf-8" src="utils.js"></script>
-<script type="text/javascript" charset="utf-8" src="lib/lodash.underscore.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="radars/fusion3radarData.js"></script>
-
-<style type="text/css" media="screen">
-  
-#fig {
-  height: 1000px;
-  width: 1200px;
-}
-
-</style>
-<script type="text/javascript" src="radar.js" charset="utf-8"></script>
-<script type="text/javascript" charset="utf-8">
-
-</script>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/protovis-3.2/protovis-d3.2.js"></script>
+  <script type="text/javascript" src="utils.js"></script>
+  <script type="text/javascript" src="lib/lodash.underscore.min.js"></script>
+  <script type="text/javascript" src="radars/fusion3radarData.js"></script>
+  <script type="text/javascript" src="radar.js"></script>
 </head>
 
 <body onload="init(h,w);">
-<h1 id="title" style="text-align: center;"></h1>
+<h1 id="title"></h1>
+<p>
+  <strong>Adopt:</strong> Working with confidence; Released to live; Good knowladge in team; Ready to use in new projects without investigation;<br>
+  <strong>Trial:</strong> Tested in battle; Very promissing; Still a lot of unknowns;<br>
+  <strong>Assess:</strong> Very interesting; Untested in production; Lack of experiance in the team;<br>
+  <strong>Hold:</strong> Out of team scope; There are better alternatives; Depricated technology;<br>
+</p>
 <div id="radar"></div>
 <div>
-<p>^ Item in dispute, additional discussion and context to be provided.</p>
 </div>
 </body>
 </html>
