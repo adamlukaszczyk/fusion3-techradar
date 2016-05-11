@@ -173,7 +173,7 @@ var radar_data = [
 
         { "name": "ASP.NET WebForms", "pc": { "r": 120, "t": 280 }, "movement": "c" },
 
-        { "name": "ASP.NET WinForms", "pc": { "r": 240, "t": 280 }, "movement": "c" },
+        { "name": "WinForms", "pc": { "r": 240, "t": 280 }, "movement": "c" },
         { "name": "WPF", "pc": { "r": 270, "t": 340 }, "movement": "c" },
         { "name": "WCF", "pc": { "r": 210, "t": 320 }, "movement": "c" },
         { "name": "Angular.js", "pc": { "r": 220, "t": 300 }, "movement": "c" },
