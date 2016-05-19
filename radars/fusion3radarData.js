@@ -69,6 +69,7 @@ var radar_data = [
         { "name": "Selenium", "pc": { "r": 50, "t": 160 }, "movement": "c" },
         { "name": "StyleCop", "pc": { "r": 90, "t": 145 }, "movement": "c" },
         { "name": "SpecFlow", "pc": { "r": 90, "t": 170 }, "movement": "c" },
+        { "name": "Lintery, np. ESLint", "pc": { "r": 90, "t": 115 }, "movement": "c" },
         
         // Trial: Tested in battle; Very promissing; Still a lot of unknowns;
         { "name": "Atom", "pc": { "r": 170, "t": 140 }, "movement": "c" },
@@ -76,7 +77,9 @@ var radar_data = [
         { "name": "SoapUI", "pc": { "r": 150, "t": 120 }, "movement": "c" },
         { "name": "Crucible", "pc": { "r": 190, "t": 110 }, "movement": "c" },
         { "name": "TestRail", "pc": { "r": 140, "t": 150 }, "movement": "c" },
-        
+        { "name": "Sql Server Management Studio", "pc": { "r": 160, "t": 170 }, "movement": "c" },
+        { "name": "Webpack", "pc": { "r": 120, "t": 120 }, "movement": "c" },
+
         // Assess: Very interesting; Untested in production; Lack of experiance in the team; 
         { "name": "Protractor", "pc": { "r": 230, "t": 140 }, "movement": "c" },
         { "name": "Google Analytics", "pc": { "r": 250, "t": 170 }, "movement": "c" },
@@ -87,7 +90,10 @@ var radar_data = [
         { "name": "MSTest", "pc": { "r": 290, "t": 150 }, "movement": "c" },
         { "name": "NHibernate", "pc": { "r": 280, "t": 140 }, "movement": "c" },
         { "name": "TestComplete", "pc": { "r": 270, "t": 160 }, "movement": "c" },
-
+        { "name": "Concourse.ci", "pc": { "r": 260, "t": 110 }, "movement": "c" },
+        { "name": "Code profilers", "pc": { "r": 220, "t": 130 }, "movement": "c" },
+        { "name": "Gulp/Grunt", "pc": { "r": 250, "t": 150 }, "movement": "c" },
+        
         // Hold: Out of team scope; There are better alternatives; Depricated technology;  
         { "name": "Team City", "pc": { "r": 320, "t": 110 }, "movement": "c" },
         { "name": "SVN", "pc": { "r": 370, "t": 160 }, "movement": "c" },
@@ -102,19 +108,23 @@ var radar_data = [
       "items" : [ 
         // t: 10 - 80
         { "name": "C#", "pc": { "r": 30, "t": 70 }, "movement": "c" },
-        { "name": "Azure", "pc": { "r": 50, "t": 52 }, "movement": "c" },
         { "name": "CSS", "pc": { "r": 70, "t": 10 }, "movement": "c" },
         { "name": "TSQL", "pc": { "r": 30, "t": 20 }, "movement": "c" },
+        { "name": "Azure WebApps", "pc": { "r": 70, "t": 70 }, "movement": "c" },
+        { "name": "Azure SQL DB", "pc": { "r": 50, "t": 50 }, "movement": "c" },
 
         { "name": "Windows Server / IIS", "pc": { "r": 120, "t": 20 }, "movement": "c" },
         { "name": "PowerShell", "pc": { "r": 170, "t": 40 }, "movement": "c" },
+        { "name": "Azure", "pc": { "r": 150, "t": 52 }, "movement": "c" },
+        { "name": "HTML5", "pc": { "r": 140, "t": 80 }, "movement": "c" },
+        { "name": "CSS3", "pc": { "r": 110, "t": 60 }, "movement": "c" },
+        { "name": "LESS/SASS", "pc": { "r": 160, "t": 10 }, "movement": "c" },
 
-        { "name": "Elastic Search", "pc": { "r": 220, "t": 40 }, "movement": "c" },
         { "name": "MongoDB", "pc": { "r": 230, "t": 10 }, "movement": "c" },
         { "name": "Linux", "pc": { "r": 210, "t": 70 }, "movement": "c" },
         { "name": "AWS", "pc": { "r": 250, "t": 20 }, "movement": "c" },
         { "name": "Active Directory", "pc": { "r": 260, "t": 70 }, "movement": "c" },
-        { "name": "SASS", "pc": { "r": 210, "t": 50 }, "movement": "c" },
+        { "name": "node.js", "pc": { "r": 240, "t": 50 }, "movement": "c" },
 
         { "name": "PHP", "pc": { "r": 330, "t": 60 }, "movement": "c" },
         { "name": "C++", "pc": { "r": 350, "t": 20 }, "movement": "c" },
@@ -138,6 +148,8 @@ var radar_data = [
         { "name": "IOC", "pc": {"r": 60, "t": 220}, "movement": "c" },
         { "name": "OOP", "pc": {"r": 80, "t": 210}, "movement": "c" },
         { "name": "Relative DB", "pc": {"r": 80, "t": 260}, "movement": "c" },
+        { "name": "Page Object", "pc": {"r": 80, "t": 195}, "movement": "c" },
+        { "name": "Page Factory", "pc": {"r": 90, "t": 185}, "movement": "c" },
 
         { "name": "Scrum", "pc": {"r": 100, "t": 205}, "movement": "c" },
         { "name": "Kanban", "pc": {"r": 120, "t": 245}, "movement": "c" },
@@ -152,6 +164,9 @@ var radar_data = [
         { "name": "Code Metrics", "pc": {"r": 250, "t": 240}, "movement": "c" },
         { "name": "Multithreading", "pc": {"r": 270, "t": 190}, "movement": "c" },
         { "name": "UX", "pc": {"r": 270, "t": 220}, "movement": "c" },
+        { "name": "ELK", "pc": { "r": 220, "t": 240 }, "movement": "c" },
+        { "name": "Event Sourcing", "pc": { "r": 230, "t": 185 }, "movement": "c" },
+        { "name": "Event Driven Architecture", "pc": { "r": 250, "t": 230 }, "movement": "c" },
 
         { "name": "UML", "pc": {"r": 350, "t": 220}, "movement": "c" },
         { "name": "Cryptography", "pc": {"r": 320, "t": 260}, "movement": "c" },
@@ -172,6 +187,7 @@ var radar_data = [
         { "name": "Simple Injector", "pc": { "r": 90, "t": 350 }, "movement": "c" },
 
         { "name": "ASP.NET WebForms", "pc": { "r": 120, "t": 280 }, "movement": "c" },
+        { "name": "Biblioteki do mockowania, np. fakeiteasy", "pc": { "r": 150, "t": 340 }, "movement": "c" },
 
         { "name": "WinForms", "pc": { "r": 240, "t": 280 }, "movement": "c" },
         { "name": "WPF", "pc": { "r": 270, "t": 340 }, "movement": "c" },
@@ -179,7 +195,11 @@ var radar_data = [
         { "name": "Angular.js", "pc": { "r": 220, "t": 300 }, "movement": "c" },
         { "name": "ASP.NET SignalR", "pc": { "r": 280, "t": 310 }, "movement": "c" },
         { "name": "WebAii", "pc": { "r": 220, "t": 340 }, "movement": "c" },
-        
+        { "name": "materializeCSS/materialUI", "pc": { "r": 290, "t": 350 }, "movement": "c" },
+        { "name": "xUnit", "pc": { "r": 270, "t": 320 }, "movement": "c" },
+        { "name": "qunit / Jasmine, Mocha", "pc": { "r": 270, "t": 275 }, "movement": "c" },
+        { "name": "Flux/Redux", "pc": { "r": 280, "t": 290 }, "movement": "c" },
+        { "name": "RabbitMQ/NServiceBus/ZeroMQ", "pc": { "r": 250, "t": 355 }, "movement": "c" },
         
         { "name": "Dapper", "pc": { "r": 350, "t": 290 }, "movement": "c" },
         { "name": "Unity (IOC)", "pc": { "r": 330, "t": 340 }, "movement": "c" },
